@@ -1,0 +1,28 @@
+//STRINGS AND NUMBERS LAB. 2-25-18
+  //HTML
+  <h1>Profile</h1>
+
+  <p class = "label">Name</p>
+
+  <p id="name">Joe Burgess</p>
+
+  <p class = "label">Height</p>
+
+  <p id="height">74</p>
+
+  <p class = "label">Friends</p>
+
+  <p id="friends">12</p>
+
+  <p class = "label">Employer</p>
+
+  <p id="employer">Flatiron School</p>
+
+  //JS Code Here
+  var friendsSelector = document.querySelector('#friends')
+
+  friendsSelector.innerHTML=parseInt(friendsSelector.innerHTML) + 1
+
+  var employerSelector = document.querySelector('#employer')
+
+  employerSelector.innerHTML = "vOrb, LLC <br> Quadrel, LLC" 
